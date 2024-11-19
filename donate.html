@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - All Green Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://js.stripe.com/v3/"></script>
+  <script defer src="donate.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">All Green Foundation</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="get-involved.html">Get Involved</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="donate">
+    <h1>Make a Donation</h1>
+    <p>Your support helps us continue our mission to protect the environment and promote sustainable practices. Please consider making a donation today.</p>
+
+    <form action="process-donation.php" method="POST" class="donation-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="amount">Donation Amount:</label>
+      <input type="number" id="amount" name="amount" required>
+
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card-number" required>
+
+      <label for="expiry-date">Expiry Date:</label>
+      <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" required>
+
+      <button type="submit">Donate</button>
+    </form>
+  </div>
+
+  
+  <footer class="footer">
+    <p>© 2024 All Green Foundation. All rights reserved.</p>
+  </footer>
+</body>
+</html>

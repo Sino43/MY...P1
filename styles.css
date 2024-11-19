@@ -1,0 +1,340 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    color: #f4f4f4;
+    background-image: url('https://trefoilgroup.com/wp-content/uploads/2022/04/organic-growth-news-insights-landing-page-comp.jpg') ;
+    background-size: cover;
+    
+
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4c968e;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ffeb3b;
+  }
+  
+  .home {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('https://img.freepik.com/premium-photo/environment-friendly-green-utopia-futuristic-city-skyline-3d-art-illustration_87538-3171.jpg?w=360') ;
+    background-size: cover;
+    color: black;
+  }
+  
+  .home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer {
+    background-color: #40998f;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
+   
+  
+  
+  
+  .about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer {
+    background-color: rgba(0, 121, 107, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
+   
+  .projects {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 60px auto;
+  }
+  
+  .projects h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer {
+    background-color: rgba(0, 121, 107, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
+  .get-involved {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 60px auto;
+  }
+  
+  .get-involved h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .involvement-option {
+    margin-bottom: 40px;
+  }
+  
+  .involvement-option h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .involvement-option p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .involvement-option img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer {
+    background-color: rgba(0, 121, 107, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
+  .donate {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 60px auto;
+  }
+  
+  .donate h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .donate p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .donation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .donation-form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .donation-form input {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .donation-form button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .donation-form button:hover {
+    background-color: #004d40;
+  }
+  
+  .footer {
+    background-color: rgba(0, 121, 107, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
+  .contact {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 60px auto;
+  }
+  
+  .contact h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #004d40;
+  }
+  
+  .contact-info {
+    text-align: left;
+    margin-top: 40px;
+  }
+  
+  .contact-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: rgba(0, 121, 107, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
